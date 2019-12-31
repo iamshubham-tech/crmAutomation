@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite">
+	<test name="MyTests">
+	
+			<parameter name="browser" value="chrome" />
+	
+		<classes>
+			<class name="com.automation.tests.TC1" />
+		</classes>
+	</test>
+</suite>

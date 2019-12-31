@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyTestSuite" duration-ms="88260" started-at="2019-12-31T10:39:56Z" finished-at="2019-12-31T10:41:25Z">
+    <groups>
+    </groups>
+    <test name="MyTests" duration-ms="88260" started-at="2019-12-31T10:39:56Z" finished-at="2019-12-31T10:41:25Z">
+      <class name="com.automation.tests.TC1">
+        <test-method status="PASS" signature="startSetup(java.lang.String)[pri:0, instance:com.automation.tests.TC1@4501b7af]" name="startSetup" is-config="true" duration-ms="47391" started-at="2019-12-31T10:39:56Z" finished-at="2019-12-31T10:40:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSetup -->
+        <test-method status="PASS" signature="execute()[pri:0, instance:com.automation.tests.TC1@4501b7af]" name="execute" duration-ms="37466" started-at="2019-12-31T10:40:44Z" finished-at="2019-12-31T10:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:com.automation.tests.TC1@4501b7af]" name="endSession" is-config="true" duration-ms="3278" started-at="2019-12-31T10:41:21Z" finished-at="2019-12-31T10:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- com.automation.tests.TC1 -->
+    </test> <!-- MyTests -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>

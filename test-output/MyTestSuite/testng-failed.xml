@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MyTestSuite]">
+  <test thread-count="5" name="MyTests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.automation.tests.TC1">
+        <methods>
+          <include name="execute"/>
+          <include name="endSession"/>
+          <include name="startSetup"/>
+        </methods>
+      </class> <!-- com.automation.tests.TC1 -->
+    </classes>
+  </test> <!-- MyTests(failed) -->
+</suite> <!-- Failed suite [MyTestSuite] -->
