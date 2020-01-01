@@ -1,11 +1,10 @@
 package com.automation.tests;
 
-import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.automation.pageobjects.HomePage;
 import com.automation.pageobjects.LoginPage;
+import com.automation.utils.Constants;
 
 public class TC1 extends BaseClassSuite {
 
@@ -17,8 +16,10 @@ public class TC1 extends BaseClassSuite {
 		HomePage hp = new HomePage();
 		Thread.sleep(5000);
 		lp.login(USERNAME, PASSWORD);
+		Thread.sleep(Constants.LONG_WAIT);
 	    hp.navigateToContacts();
-	    quickAddCOntact("Barry", "Allen");
+	    Thread.sleep(Constants.LONG_WAIT);
+	    tagFromList("Barry Allen","Name");
 		
 		
 	}
