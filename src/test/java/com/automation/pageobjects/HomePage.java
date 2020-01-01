@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.automation.tests.BaseClassSuite;
+import com.automation.utils.Constants;
 
 public class HomePage extends BaseClassSuite {
 
@@ -17,9 +18,9 @@ public class HomePage extends BaseClassSuite {
 		
 	}
 	
-	public void navigateToContacts()
+	public void navigateToContacts() throws InterruptedException
 	{
 		contacts.click();
-		
+		Thread.sleep(Constants.LONG_WAIT);
 	}
 }
