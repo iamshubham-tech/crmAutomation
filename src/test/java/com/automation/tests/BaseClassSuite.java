@@ -1,5 +1,6 @@
 package com.automation.tests;
 
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -80,6 +81,16 @@ public class BaseClassSuite {
 			}
 		}
 
+	}
+	
+	public Properties getConfig()
+	{
+		return ConfigReader.prop;
+	}
+	
+	public WebDriver getDriver()
+	{
+		return driver;
 	}
 
 	@AfterClass

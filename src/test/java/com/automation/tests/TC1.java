@@ -6,6 +6,8 @@ import com.automation.pageobjects.HomePage;
 import com.automation.pageobjects.LoginPage;
 import com.automation.utils.Constants;
 
+import reusables.Logout;
+
 public class TC1 extends BaseClassSuite {
 
 	@Test
@@ -20,7 +22,7 @@ public class TC1 extends BaseClassSuite {
 	    hp.navigateToContacts();
 	    Thread.sleep(Constants.LONG_WAIT);
 	    tagFromList("Barry Allen","Name");
-		
 		Thread.sleep(Constants.SHORT_WAIT);
+		Logout.execute(this);
 	}
 }
