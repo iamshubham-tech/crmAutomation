@@ -21,6 +21,6 @@ public class TC1 extends BaseClassSuite {
 	    Thread.sleep(Constants.LONG_WAIT);
 	    tagFromList("Barry Allen","Name");
 		
-		
+		Thread.sleep(Constants.SHORT_WAIT);
 	}
 }
